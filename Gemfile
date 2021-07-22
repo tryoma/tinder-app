@@ -15,6 +15,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
 
+gem "mini_magick"
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -22,7 +24,7 @@ end
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
-  gem 'spring'
+  gem 'spring', '~> 2.0.0'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
