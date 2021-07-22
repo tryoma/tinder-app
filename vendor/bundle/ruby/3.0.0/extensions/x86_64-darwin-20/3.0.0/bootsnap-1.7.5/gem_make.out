@@ -1,0 +1,15 @@
+current directory: /Users/takuboryouma/techpit-match/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+/Users/takuboryouma/.rbenv/versions/3.0.2/bin/ruby -I /Users/takuboryouma/.rbenv/versions/3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210720-24766-rksb4t.rb extconf.rb
+creating Makefile
+
+current directory: /Users/takuboryouma/techpit-match/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/takuboryouma/techpit-match/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/takuboryouma/techpit-match/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210720-24766-s9gj7q/bootsnap
